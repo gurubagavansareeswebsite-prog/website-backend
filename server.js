@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
+// Middleware for ecommerce
 app.use(cors({
     origin: [
         'http://localhost:5173',
